@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "cbSecondary": "linear-gradient(90deg, #7E90FE 0%, #9873FF 100%)"
+      }
+    },
   },
   plugins: [],
 }
