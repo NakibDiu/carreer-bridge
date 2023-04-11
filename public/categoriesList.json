@@ -47,7 +47,7 @@
     {
       "log_img": "/src/assets/assets/Logo/tesla-9 1.png",
       "title": "Software Engineer",
-      "id": 1,
+      "id": 3,
       "job_type": ["Full-time", "Remote"],
       "location": "Dhaka, Bangladesh",
       "salary": "100k - 150k",
@@ -56,7 +56,7 @@
     {
       "log_img": "/src/assets/assets/Logo/google-1-1 1.png",
       "title": "Technical Database Engineer",
-      "id": 1,
+      "id": 4,
       "job_type": ["Full-time", "Remote"],
       "location": "Dhaka, Bangladesh",
       "salary": "100k - 150k",
@@ -65,7 +65,7 @@
     {
       "log_img": "/src/assets/assets/Logo/netflix-4 1.png",
       "title": "Senior Product Designer",
-      "id": 2,
+      "id": 5,
       "job_type": ["Full-time", "Remote"],
       "location": "Dhaka, Bangladesh",
       "salary": "100k - 150k",
@@ -74,7 +74,7 @@
     {
       "log_img": "/src/assets/assets/Logo/tesla-9 1.png",
       "title": "Software Engineer",
-      "id": 1,
+      "id": 6,
       "job_type": ["Full-time", "Remote"],
       "location": "Dhaka, Bangladesh",
       "salary": "100k - 150k",
