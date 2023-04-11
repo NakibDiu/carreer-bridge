@@ -1,0 +1,84 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "icon": "/src/assets/assets/Icons/accounts 1.png",
+      "title": "Account & Finance",
+      "numbers": "300"
+    },
+    {
+      "id": 2,
+      "icon": "/src/assets/assets/Icons/business 1.png",
+      "title": "Creative Design",
+      "numbers": "100+"
+    },
+    {
+      "id": 3,
+      "icon": "/src/assets/assets/Icons/social-media 1.png",
+      "title": "Marketing & Sales",
+      "numbers": "150"
+    },
+    {
+      "id": 4,
+      "icon": "/src/assets/assets/Icons/chip 1.png",
+      "title": "Engineering Job",
+      "numbers": "224"
+    }
+  ],
+  "jobs": [
+    {
+      "log_img": "/src/assets/assets/Logo/google-1-1 1.png",
+      "title": "Technical Database Engineer",
+      "id": 1,
+      "job_type": ["Full-time", "Remote"],
+      "location": "Dhaka, Bangladesh",
+      "salary": "100k - 150k",
+      "company_name":"Google LLC"
+    },
+    {
+      "log_img": "/src/assets/assets/Logo/netflix-4 1.png",
+      "title": "Senior Product Designer",
+      "id": 2,
+      "job_type": ["Full-time", "Remote"],
+      "location": "Dhaka, Bangladesh",
+      "salary": "100k - 150k",
+      "company_name":"Netflix"
+    },
+    {
+      "log_img": "/src/assets/assets/Logo/tesla-9 1.png",
+      "title": "Software Engineer",
+      "id": 1,
+      "job_type": ["Full-time", "Remote"],
+      "location": "Dhaka, Bangladesh",
+      "salary": "100k - 150k",
+      "company_name":"Tesla"
+    },
+    {
+      "log_img": "/src/assets/assets/Logo/google-1-1 1.png",
+      "title": "Technical Database Engineer",
+      "id": 1,
+      "job_type": ["Full-time", "Remote"],
+      "location": "Dhaka, Bangladesh",
+      "salary": "100k - 150k",
+      "company_name":"Google LLC"
+    },
+    {
+      "log_img": "/src/assets/assets/Logo/netflix-4 1.png",
+      "title": "Senior Product Designer",
+      "id": 2,
+      "job_type": ["Full-time", "Remote"],
+      "location": "Dhaka, Bangladesh",
+      "salary": "100k - 150k",
+      "company_name":"Netflix"
+    },
+    {
+      "log_img": "/src/assets/assets/Logo/tesla-9 1.png",
+      "title": "Software Engineer",
+      "id": 1,
+      "job_type": ["Full-time", "Remote"],
+      "location": "Dhaka, Bangladesh",
+      "salary": "100k - 150k",
+      "company_name":"Tesla"
+    } 
+  ]
+}
