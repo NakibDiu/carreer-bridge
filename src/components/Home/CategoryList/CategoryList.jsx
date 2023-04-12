@@ -2,7 +2,6 @@ import React from "react";
 import Category from "./Category";
 
 const CategoryList = ({ categories }) => {
-  console.log(categories);
   return (
     <div className="space-y-8 mt-14 lg:mt-24 xl:mt-32">
       <div className="space-y-4">

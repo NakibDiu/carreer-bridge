@@ -1,9 +1,8 @@
 import React from "react";
 
 const Category = ({ category }) => {
-  console.log(category);
   return (
-    <div className="space-y-8 rounded-lg bg-[#f9f9ff] p-10">
+    <div className="space-y-8 rounded-lg bg-[#f9f9ff] p-10 flex flex-col items-center lg:block shadow-md">
       <div className="w-[70px] h-[70px] bg-[#efecfe] p-4 rounded-lg">
         <img src={category.icon} url="icon" />
       </div>
