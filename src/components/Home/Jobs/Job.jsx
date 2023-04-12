@@ -38,9 +38,11 @@ const Job = ({ job }) => {
             </h5>
           </div>
         </div>
-        <Link to={`job/${id}`}>
-          <Button>View Details</Button>
-        </Link>
+        <div className="mt-auto">
+          <Link to={`job/${id}`}>
+            <Button>View Details</Button>
+          </Link>
+        </div>
       </div>
     </div>
   );
