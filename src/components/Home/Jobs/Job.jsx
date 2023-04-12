@@ -16,7 +16,7 @@ const Job = ({ job }) => {
             {company_name}
           </h2>
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center flex-wrap gap-4">
           {job_type.map((type, index) => (
             <div
               key={index}

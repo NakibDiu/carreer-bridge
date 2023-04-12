@@ -17,10 +17,10 @@ const Header = () => {
         />
         {/* large screen */}
         <ul className="hidden md:flex items-center gap-6 xl:gap-10">
-          <li>Home</li>
-          <li>Statistics</li>
-          <li>Applied Jobs</li>
-          <li>Blog</li>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/statistics">Statistics</NavLink>
+          <NavLink to="/jobs/applied">Applied Jobs</NavLink>
+          <NavLink to="/blogs">Blog</NavLink>
         </ul>
         <div className="hidden md:block">
           <Button>Start Applying</Button>
@@ -28,11 +28,11 @@ const Header = () => {
       </div>
       {showMenu && (
         <div className="space-y-3 my-4 transition-opacity duration-2000 md:hidden">
-          <ol className="space-y-2">
-            <li>Home</li>
-            <li>Statistics</li>
-            <li>Applied Jobs</li>
-            <li>Blog</li>
+          <ol className="space-y-2 flex flex-col">
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/statistics">Statistics</NavLink>
+            <NavLink to="/jobs/applied">Applied Jobs</NavLink>
+            <NavLink to="/blogs">Blog</NavLink>
           </ol>
           <Button>Start Applying</Button>
         </div>

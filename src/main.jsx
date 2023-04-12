@@ -8,6 +8,7 @@ import {
 import MainLayout from './layout/MainLayout';
 import Home from './components/Home/Home';
 import JobDetails from './components/Job details/JobDetails';
+import AppliedList from './components/AppliedList/AppliedList';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,11 @@ const router = createBrowserRouter([
       {
         path: "job/:id",
         element: <JobDetails></JobDetails>,
+        loader: async () => fetch('/categoriesList.json')
+      },
+      {
+        path: "jobs/applied",
+        element: <AppliedList></AppliedList>,
         loader: async () => fetch('/categoriesList.json')
       }
     ]
