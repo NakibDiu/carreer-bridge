@@ -82,7 +82,7 @@
     },
     {
       "logo_img": "/src/assets/assets/Logo/google-1-1 1.png",
-      "title": "Technical Database Engineer",
+      "title": "Frontend Developer",
       "id": 4,
       "job_type": ["Full-time", "Onsite"],
       "location": "Dhaka, Bangladesh",
@@ -99,10 +99,10 @@
       }
     },
     {
-      "logo_img": "/src/assets/assets/Logo/netflix-4 1.png",
-      "title": "Senior Product Designer",
+      "logo_img": "https://source.unsplash.com/random?w=500&h=35",
+      "title": "Junior Product Designer",
       "id": 5,
-      "job_type": ["Full-time", "Onsite"],
+      "job_type": ["Part-time", "Offline"],
       "location": "Dhaka, Bangladesh",
       "salary": "100k - 150k",
       "company_name": "Netflix",
@@ -117,10 +117,10 @@
       }
     },
     {
-      "logo_img": "/src/assets/assets/Logo/tesla-9 1.png",
+      "logo_img": "https://source.unsplash.com/random?w=500&h=35",
       "title": "Software Engineer",
       "id": 6,
-      "job_type": ["Full-time", "Remote"],
+      "job_type": ["Part-time", "Remote"],
       "location": "Dhaka, Bangladesh",
       "salary": "100k - 150k",
       "company_name": "Tesla",
