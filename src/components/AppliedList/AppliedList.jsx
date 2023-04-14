@@ -22,8 +22,6 @@ const AppliedList = () => {
   const onSiteJobs = list.filter((ls) => ls.job_type.includes("Onsite"))
   const remoteJobs = list.filter((ls) => ls.job_type.includes("Remote"))
 
-  console.log(remoteJobs);
-
   return (
     <div className="p-6 lg:p-16">
       <DetailsHeader>Applied List</DetailsHeader>
