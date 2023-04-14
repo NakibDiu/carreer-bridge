@@ -10,6 +10,7 @@ import Home from './components/Home/Home';
 import JobDetails from './components/Job details/JobDetails';
 import AppliedList from './components/AppliedList/AppliedList';
 import Statistics from './components/Statistics/Statistics';
+import Blogs from './components/Blogs/Blogs';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
         path:"statistics",
         element: <Statistics></Statistics>,
         loader: async () => fetch('../src/data/assignmentData.js')
+      },
+      {
+        path:"blogs",
+        element: <Blogs></Blogs>,
       }
     ]
   },
