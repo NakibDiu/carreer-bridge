@@ -9,12 +9,12 @@ import salaryIcon from "../../assets/assets/Icons/Salary.png";
 const AppliedList = () => {
   const { jobs } = useLoaderData();
   const appliedJobs = getAppliedJobsCart();
-  
-  const list = jobs.filter(obj1 => {
-  const obj2 = appliedJobs.find(obj2 => obj1.id === parseInt(obj2.id));
-  // console.log(obj2, obj1);
-  return obj2 !== undefined;
-});  
+
+  const list = jobs.filter((obj1) => {
+    const obj2 = appliedJobs.find((obj2) => obj1.id === parseInt(obj2.id));
+    // console.log(obj2, obj1);
+    return obj2 !== undefined;
+  });
 
   return (
     <div className="p-6 lg:p-16">

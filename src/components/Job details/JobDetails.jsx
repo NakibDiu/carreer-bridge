@@ -40,8 +40,8 @@ const JobDetails = () => {
       console.log("already there");
     } else {
       addToDb(id)
-      navigate("../jobs/applied")
     }
+    navigate("../jobs/applied")
 
   }
 

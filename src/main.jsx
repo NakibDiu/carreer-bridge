@@ -9,6 +9,7 @@ import MainLayout from './layout/MainLayout';
 import Home from './components/Home/Home';
 import JobDetails from './components/Job details/JobDetails';
 import AppliedList from './components/AppliedList/AppliedList';
+import Statistics from './components/Statistics/Statistics';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,11 @@ const router = createBrowserRouter([
         path: "jobs/applied",
         element: <AppliedList></AppliedList>,
         loader: async () => fetch('/categoriesList.json')
+      },
+      {
+        path:"statistics",
+        element: <Statistics></Statistics>,
+        loader: async () => fetch('../src/data/assignmentData.js')
       }
     ]
   },
