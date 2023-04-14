@@ -10,18 +10,39 @@ const AppliedList = () => {
   const { jobs } = useLoaderData();
   const appliedJobs = getAppliedJobsCart();
 
+  
   const list = jobs.filter((obj1) => {
     const obj2 = appliedJobs.find((obj2) => obj1.id === parseInt(obj2.id));
     // console.log(obj2, obj1);
     return obj2 !== undefined;
   });
+  
+  const [viewedList, setViewedList] = useState(list)
+
+  const onSiteJobs = list.filter((ls) => ls.job_type.includes("Onsite"))
+  const remoteJobs = list.filter((ls) => ls.job_type.includes("Remote"))
+
+  console.log(remoteJobs);
 
   return (
     <div className="p-6 lg:p-16">
       <DetailsHeader>Applied List</DetailsHeader>
-      <div>
+      <div className="space-y-6">
+        <div className="flex justify-end">
+          <div className="flex justify-end gap-4">
+            <div onClick={() => setViewedList(remoteJobs)}>
+              <Button>Remote Jobs</Button>
+            </div>
+            <div onClick={() => setViewedList(onSiteJobs)}>
+              <Button>Onsite Jobs</Button>
+            </div>
+            <div onClick={() => setViewedList(list)}>
+              <Button>All</Button>
+            </div>
+          </div>
+        </div>
         <div className="space-y-6">
-          {list?.map((ls) => {
+          {viewedList?.map((ls) => {
             const {
               company_name,
               job_type,
