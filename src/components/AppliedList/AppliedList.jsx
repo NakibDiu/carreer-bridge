@@ -37,7 +37,7 @@ const AppliedList = () => {
                 className="border p-4 flex flex-col lg:flex-row lg:items-center gap-5"
               >
                 <div className="bg-[#f4f4f4] rounded-lg lg:w-60 h-60 flex justify-center items-center">
-                  <img src={logo_img} alt={title} />
+                  <img src={logo_img} alt={title} className="h-1/2 w-4/5" />
                 </div>
                 <div className="flex flex-col gap-4 lg:basis-3/5">
                   <div className="space-y-2">

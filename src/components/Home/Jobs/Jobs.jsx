@@ -1,7 +1,8 @@
 import React from "react";
 import Job from "./Job";
+import Button from "../../Button/Button";
 
-const Jobs = ({ jobs }) => {
+const Jobs = ({ jobs, viewedJobs, setViewedJobs }) => {
   return (
     <div className="space-y-8 mt-14 lg:mt-24 xl:mt-32">
       <div className="space-y-4">
@@ -12,10 +13,19 @@ const Jobs = ({ jobs }) => {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {jobs.map((job) => (
+        {viewedJobs.map((job) => (
           <Job job={job} key={job.id} />
         ))}
       </div>
+      {viewedJobs.length < 5 ? (
+        <div onClick={() => setViewedJobs(jobs)} className="">
+          <Button>See More</Button>
+        </div>
+      ) : (
+        <div onClick={() => setViewedJobs(jobs.slice(0, 4))}>
+          <Button>See Less</Button>
+        </div>
+      )}
     </div>
   );
 };
